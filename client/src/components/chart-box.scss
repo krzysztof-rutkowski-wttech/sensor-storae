@@ -1,0 +1,44 @@
+@import '../styles/colors';
+
+.chart-box {
+    padding: 0.75rem;
+
+    .title {
+        font-weight: 600;
+        text-align: center;
+    }
+    .content {
+        text-align: center;
+        height: 25rem;
+    }
+    .footer {
+        text-align: right;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.chart-box-1 {
+    background-color: $chart-box-dark-1;
+    color: $chart-box-light-1;
+    .footer a {
+        color: $chart-box-light-1;
+    }
+}
+
+.chart-box-2 {
+    background-color: $chart-box-dark-2;
+    color: $chart-box-light-2;
+    .footer a {
+        color: $chart-box-light-2;
+    }
+}
+
+.chart-box-3 {
+    background-color: $chart-box-dark-3;
+    color: $chart-box-light-3;
+    .footer a {
+        color: $chart-box-light-3;
+    }
+}

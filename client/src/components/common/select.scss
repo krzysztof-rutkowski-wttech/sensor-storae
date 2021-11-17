@@ -1,0 +1,15 @@
+
+.select {
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+    .label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        margin-left: 0.125rem;
+    }
+
+    .react-select, .react-select__control {
+        cursor: pointer;
+    }
+}

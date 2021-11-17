@@ -1,0 +1,40 @@
+@import '../styles/colors';
+nav a.active {
+    background-color: #eee;
+  }
+
+nav {
+    ul {
+        list-style-type: none;
+        display: flex;
+        column-gap: 0.25rem;
+        font-weight: 600;
+        background-color: $nav-background;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding: 1rem 0;
+
+            a {
+                text-decoration: none;
+                color: $nav-main;
+                padding: 1rem;
+            }
+
+            a.selected {
+                background-color: $nav-background-selected;
+                color: $nav-color-selected;
+            }
+
+            &.sub-selected {
+                background-color: $backround;
+                color: $main;
+                margin-left: -4px;
+                padding: 1rem;
+            }
+        }
+    }
+   
+}
+

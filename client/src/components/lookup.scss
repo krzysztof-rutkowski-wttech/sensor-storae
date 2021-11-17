@@ -1,0 +1,16 @@
+.lookup-container {
+    margin: auto;
+    width: 35rem;
+    margin-top: 2rem;
+
+    .filter {
+        display: flex;
+        column-gap: 0.75rem;
+        justify-content: space-between;
+    }
+}
+
+.lookup-results {
+    border-top: 1px solid #9aafb1;
+    margin-top: 1.5rem;
+}

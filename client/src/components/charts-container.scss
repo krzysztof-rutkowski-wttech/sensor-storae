@@ -1,0 +1,16 @@
+
+.charts-container {
+    display: flex;
+    column-gap: 0;
+    grid-row-gap: 0;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    min-height: 20rem;
+    justify-content: center;
+
+    div {
+        text-decoration: none;
+        min-width: 25rem;
+        width: 30vw;
+    }
+}
